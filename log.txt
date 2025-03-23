@@ -1,0 +1,41 @@
+commit 311d5ed742f95ff71d60058072c718e50e475e4a
+Author: Tung Hoang <hoangthanhtung285@gmail.com>
+Date:   Sun Mar 16 23:24:30 2025 +1030
+
+    made changes to request line, add code to receive response from server and send it to client. save response to file system
+
+commit 9d7871dd12618961878483be8dac64deae64bbeb
+Author: Tung Hoang <hoangthanhtung285@gmail.com>
+Date:   Sun Mar 16 23:09:05 2025 +1030
+
+    fill in request and request header
+
+commit e0a926ebf30265c18b08eb1485baf48fca322680
+Author: Tung Hoang <hoangthanhtung285@gmail.com>
+Date:   Sun Mar 16 22:58:59 2025 +1030
+
+    initialize and connect origin server socket
+
+commit c4761872a6a0ff3a0a42a08b28e848f66170c827
+Author: Tung Hoang <hoangthanhtung285@gmail.com>
+Date:   Sun Mar 16 22:50:55 2025 +1030
+
+    add code to accept connection, receive data from socket and send data thru socket.
+
+commit 1e82dcf1a1fa91fb2a21a4c4bcd1cd324ac1c621
+Author: Tung Hoang <hoangthanhtung285@gmail.com>
+Date:   Sun Mar 16 17:38:37 2025 +1030
+
+    creating server socket, binding socket and listen
+
+commit 8481e51779f1672c98a7861fc1e0d645bd9616d7
+Author: Tung Hoang <hoangthanhtung285@gmail.com>
+Date:   Sun Mar 16 15:47:33 2025 +1030
+
+    rename proxy file, no changes to code made yet
+
+commit 0c8c17bd1280e13cbc44f13947d68c961c480c2b
+Author: tunghoang2805 <141562039+tunghoang2805@users.noreply.github.com>
+Date:   Sun Mar 16 15:44:58 2025 +1030
+
+    upload Proxy python file
