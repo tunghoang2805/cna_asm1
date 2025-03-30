@@ -118,7 +118,7 @@ while True:
     # ProxyServer finds a cache hit
     # Send back response to client 
     # ~~~~ INSERT CODE ~~~~
-    clientSocket.send(cacheData.encode())
+    clientSocket.send(''.join(cacheData).encode())
     # ~~~~ END CODE INSERT ~~~~
     cacheFile.close()
     print ('Sent to the client:')
@@ -150,7 +150,7 @@ while True:
       # originServerRequestHeader is the second line in the request
       # ~~~~ INSERT CODE ~~~~
       originServerRequest = f'{method} {resource} {version}'
-      originServerRequestHeader = f'Host: {hostname}'
+      originServerRequestHeader = f'Host: {hostname}\r\nConnection: close'
       # ~~~~ END CODE INSERT ~~~~
 
       # Construct the request to send to the origin server
