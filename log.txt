@@ -1,3 +1,29 @@
+commit e3502c7f86847a0bdd750d95db2ab02c8a66f4fc
+Author: Tung Hoang <hoangthanhtung285@gmail.com>
+Date:   Sun Mar 30 22:22:23 2025 +1030
+
+    tested proxy server with cURL
+
+commit f4eb3146e8bc236eccb763b81ea60d7d30602e3d
+Author: Tung Hoang <hoangthanhtung285@gmail.com>
+Date:   Sun Mar 30 22:19:30 2025 +1030
+
+    bug fix:
+    1. cacheData is a list and can't be encoded -> use join to make it encodable
+    2. close connection in origin server request header
+
+commit 7e0e6d2dfb7b182ceb8229fed6a69ef44a0fe95a
+Author: Tung Hoang <hoangthanhtung285@gmail.com>
+Date:   Sun Mar 30 22:07:48 2025 +1030
+
+    bug fix: wrong port no. for origin server, should be 80 not 81, because HTTP server usually runs port 80
+
+commit 2dd0feb8c74732fcfdaf97bff6e10813aa1f6dda
+Author: Tung Hoang <hoangthanhtung285@gmail.com>
+Date:   Sun Mar 23 21:51:46 2025 +1030
+
+    create commit log
+
 commit 311d5ed742f95ff71d60058072c718e50e475e4a
 Author: Tung Hoang <hoangthanhtung285@gmail.com>
 Date:   Sun Mar 16 23:24:30 2025 +1030
